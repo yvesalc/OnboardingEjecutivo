@@ -14,18 +14,18 @@ public class AccesoBean {
         LoginVO loginvo = new LoginVO();
 
 
-        if (usuario.equals("ives")) {
+        if (usuario.equals("ejecutivo")) {
 
-            if (pass.equals("paso")) {
+            if (pass.equals("ejecutivo")) {
 
                 loginvo.setLogin(true);
                 loginvo.setPerfilVO(new PerfilVO(1, "A", "Ejecutivo"));
             }
 
 
-            if (usuario.equals("victor")) {
+            if (usuario.equals("admin")) {
 
-                if (pass.equals("paso1")) {
+                if (pass.equals("admin")) {
 
                     loginvo.setLogin(true);
                     loginvo.setPerfilVO(new PerfilVO(2, "A", "Administrador"));
